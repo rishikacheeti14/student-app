@@ -43,7 +43,7 @@ export class AddStudentComponent {
     }
 
     this.studentService.addStudent(this.form.value);
-    this.router.navigate(['/']);   // back to home after save
+    this.router.navigate(['/']);  
   }
 }
 
