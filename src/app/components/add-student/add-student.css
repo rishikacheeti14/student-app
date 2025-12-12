@@ -1,0 +1,62 @@
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.student-form label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.student-form input[type="text"],
+.student-form select {
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio-group {
+  margin: 10px 0;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.info {
+  color: #007bff;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
